@@ -4,6 +4,7 @@ nav {
   z-index: 10;
   width: 100%;
   top: 0;
+  display: none;
 
   .container {
     height: 90px;
@@ -20,6 +21,7 @@ nav {
 
       .navbar-nav {
         height: 90px;
+        color: darken($color: blue, $amount: 10%);
       }
       li {
         width: 100px;
@@ -29,6 +31,7 @@ nav {
           height: 90px;
           padding-top: 34px;
           padding-bottom: 34px;
+          color: darken($color: blue, $amount: 10%);
         }
       }
     }
@@ -53,6 +56,32 @@ nav {
     float: right;
   }
 }
+//Slider
 header {
-  margin-top: 80px;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+}
+.jumbotron {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+
+  img {
+    width: 100vw;
+    height: 100vh;
+  }
+  .carousel {
+    height: 100vh;
+    width: 100vw;
+  }
+  .slide {
+    height: 100vh;
+    width: 100vw;
+  }
+  #carousel-example-generic {
+    height: 100vh;
+    width: 100vw;
+  }
 }
