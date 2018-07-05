@@ -1,0 +1,58 @@
+nav {
+  background-color: white;
+  position: fixed;
+  z-index: 10;
+  width: 100%;
+  top: 0;
+
+  .container {
+    height: 90px;
+    margin: 0;
+
+    .navbar-header {
+      height: 90px;
+    }
+    .navbar-brand {
+      height: 90px;
+    }
+    ul {
+      height: 90px;
+
+      .navbar-nav {
+        height: 90px;
+      }
+      li {
+        width: 100px;
+        height: 90px;
+        text-align: center;
+        a {
+          height: 90px;
+          padding-top: 34px;
+          padding-bottom: 34px;
+        }
+      }
+    }
+  }
+}
+.navbar-default {
+  background-image: none;
+  height: 90px;
+  margin: 0;
+  border-radius: 0;
+}
+.navbar {
+  background-color: white;
+  border: none;
+  position: fixed;
+
+  img {
+    max-width: 170px;
+  }
+
+  .nav {
+    float: right;
+  }
+}
+header {
+  margin-top: 80px;
+}
